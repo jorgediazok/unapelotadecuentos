@@ -1,0 +1,176 @@
+body {
+    font-family: "Merriweather-black", sans-serif;
+  }
+
+  
+  #title {
+    background-color: white;
+    color:black;
+    margin-left: 40px;
+    text-align:center;
+  }
+  
+
+  h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    
+  }
+
+  p{
+      font-family: 'Kanit', sans-serif;
+  }
+
+  .pelotahumo{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .btn{
+      margin-top:30px;
+  }
+
+
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+    color: black;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  */
+
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+  .title-image {
+    width: 80%;
+    margin-bottom:50px;
+    box-shadow: 20px -18px 3px 0px rgba(0,0,0,0.67);
+    
+  }
+
+  /*features*/
+
+  
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  background-color: grey;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4668;
+}
+
+/*Testimonials*/
+
+#testimonials {
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+  
+  .testimonial-image {
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+    color:black;
+  }
+
+  #pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: grey;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  @media (max-width: 1028px) {
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+  }
+
+  #cta {
+    background-color: white;
+    text-align: center;
+    color:black;
+    padding: 7% 15%;
+  }
+  
+  .cta-heading {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  .videos{
+      display:flex;
+      margin-top:50px;
+  }
+  
+  /*footer section*/
+  
+  #footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color:grey;
+    color: black;
+    
+    
+  }
+  
+  .social-icon{
+    margin: 20px 10px;
+    color: black;
+  }
+
+  .footer-image{
+      width: 40%;
+      margin: 20px 20px 20px 20px;
+      
+  }
